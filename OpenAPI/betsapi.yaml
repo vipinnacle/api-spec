@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Pinnacle888 API - Bets API Reference
+  title: VIPinnacle API - Bets API Reference
   description:  |
     All about bets, place bets, get your bet history or current bet status.
   

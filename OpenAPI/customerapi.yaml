@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Pinnacle888 API - Customer Account API Reference
+  title: VIPinnacle API - Customer Account API Reference
   description:  |
     
     # Authentication 
