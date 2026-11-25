@@ -16,7 +16,7 @@ info:
     
   x-logo:
     url: ''
-host: api.pinnacle888.com
+host: api.vipinnacle.com
 schemes:
   - https
 security:

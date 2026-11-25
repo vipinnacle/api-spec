@@ -16,7 +16,7 @@ info:
     `Authorization: Basic U03MyOT23YbzMDc6d3c3O1DQ1`
   x-logo:
     url: ''
-host: api.pinnacle888.com
+host: api.vipinnacle.com
 schemes:
   - https
 security:

@@ -17,7 +17,7 @@ info:
     
   x-logo:
     url: ''
-host: api.pinnacle888.com
+host: api.vipinnacle.com
 schemes:
   - https
 security:
@@ -192,7 +192,7 @@ paths:
           
           ### Get running bets by time range:
           ```
-          https://api.pinnacle888.com/v3/bets?betlist=RUNNING&fromDate=2017-11-21T00:00:00Z&toDate=2017-11-29T00:00:00Z
+          https://api.vipinnacle.com/v3/bets?betlist=RUNNING&fromDate=2017-11-21T00:00:00Z&toDate=2017-11-29T00:00:00Z
           ```
           Running bets are queried by *placedAt* date time
           
@@ -200,29 +200,29 @@ paths:
           ### Get settled bets by time range:
             
           ```
-          https://api.pinnacle888.com/v3/bets?betlist=SETTLED&fromDate=2015-12-28T00:00:00Z&toDate=2015-12-29T00:00:00Z
+          https://api.vipinnacle.com/v3/bets?betlist=SETTLED&fromDate=2015-12-28T00:00:00Z&toDate=2015-12-29T00:00:00Z
           ```
           Settled bets are queried by *settledAt* date time
-          https://api.pinnacle888.com/v3/bets?betlist=SETTLED&fromDate=2017-11-20T00:00:00Z&toDate=2017-11-23T00:00:00Z
+          https://api.vipinnacle.com/v3/bets?betlist=SETTLED&fromDate=2017-11-20T00:00:00Z&toDate=2017-11-23T00:00:00Z
           
           
           ### Get settled cancelled bets by time range:
             
           ```
-          https://api.pinnacle888.com/v3/bets?betList=SETTLED&fromDate=2018-03-01&toDate=2018-03-28&betStatuses=CANCELLED
+          https://api.vipinnacle.com/v3/bets?betList=SETTLED&fromDate=2018-03-01&toDate=2018-03-28&betStatuses=CANCELLED
           ```
           
 
           ### Get bets by bet ids:
           
           ```
-          https://api.pinnacle888.com/v3/bets?betIds=775856112,775856113,775856114
+          https://api.vipinnacle.com/v3/bets?betIds=775856112,775856113,775856114
           ```
           
           ### Get bets by uniqueRequestIds:
           
           ```
-          https://api.pinnacle888.com/v3/bets?uniqueRequestIds=62335222-dae4-479a-8c05-46440ccdd3bb,42335222-dae4-479a-8c05-46440ccdd3bb
+          https://api.vipinnacle.com/v3/bets?uniqueRequestIds=62335222-dae4-479a-8c05-46440ccdd3bb,42335222-dae4-479a-8c05-46440ccdd3bb
           ```
           
       operationId: Bets_GetBetsByTypeV3
@@ -363,14 +363,14 @@ paths:
           ### Get settled bets settled by time range:
             
           ```
-          https://api.pinnacle888.com/v3/bets/settled?fromDate=2015-12-28T00:00:00Z&toDate=2015-12-29T00:00:00Z
+          https://api.vipinnacle.com/v3/bets/settled?fromDate=2015-12-28T00:00:00Z&toDate=2015-12-29T00:00:00Z
           ```
           
           
           ### Get bets settled by uniqueRequestIds:
           
           ```
-          https://api.pinnacle888.com/v3/bets/settled?uniqueRequestIds=62335222-dae4-479a-8c05-46440ccdd3bb,42335222-dae4-479a-8c05-46440ccdd3bb
+          https://api.vipinnacle.com/v3/bets/settled?uniqueRequestIds=62335222-dae4-479a-8c05-46440ccdd3bb,42335222-dae4-479a-8c05-46440ccdd3bb
           ```
           
       operationId: Bets_GetBetsSettledV3
@@ -472,14 +472,14 @@ paths:
           ### Get regrades wager history by time range:
             
           ```
-          https://api.pinnacle888.com/v1/regrades/wager-history?fromDate=2024-04-01T00:00:00Z&toDate=2024-04-27T00:00:00Z
+          https://api.vipinnacle.com/v1/regrades/wager-history?fromDate=2024-04-01T00:00:00Z&toDate=2024-04-27T00:00:00Z
           ```
           
           
           ### Get regrades wager history by bet ids:
           
           ```
-          https://api.pinnacle888.com/v1/regrades/wager-history?betIds=52454247
+          https://api.vipinnacle.com/v1/regrades/wager-history?betIds=52454247
           ```
           
       operationId: Bets_GetRegradedWagerHistoryV1
