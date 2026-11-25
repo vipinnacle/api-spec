@@ -33,7 +33,7 @@ paths:
       
            Please note when the status is PENDING_ACCEPTANCE and if the live delay was applied, the response will not have betId. Client would have to call /bets by uniqueRequestId to check the status if the bet was ACCEPTED.
            
-           For more details please see [How to place a bet on live events?](https://github.com/pinny888/pinny888.github.io/blob/main/FAQs.md#how-to-place-a-bet-on-live-events)
+           For more details please see [How to place a bet on live events?](https://github.com/vipinnacle/vipinnacle.github.io/blob/main/FAQs.md#how-to-place-a-bet-on-live-events)
       operationId: Bets_StraightV4
       consumes:
         - application/json

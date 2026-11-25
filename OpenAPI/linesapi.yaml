@@ -584,7 +584,7 @@ paths:
           collectionFormat: multi
         - name: toCurrencyCode
           in: query
-          description: 3 letter currency code as in the [/currency](https://pinny888.github.io/docs/?api=lines#tag/Others/operation/Currencies_V2_Get) response. Limits will be returned in the requested currency. Default is USD. 
+          description: 3 letter currency code as in the [/currency](https://vipinnacle.github.io/docs/?api=lines#tag/Others/operation/Currencies_V2_Get) response. Limits will be returned in the requested currency. Default is USD. 
           required: false
           type: string
       responses:
@@ -668,7 +668,7 @@ paths:
           collectionFormat: multi
         - name: toCurrencyCode
           in: query
-          description: 3 letter currency code as in the [/currency](https://pinny888.github.io/docs/?api=lines#tag/Others/operation/Currencies_V2_Get) response. Limits will be returned in the requested currency. Default is USD. 
+          description: 3 letter currency code as in the [/currency](https://vipinnacle.github.io/docs/?api=lines#tag/Others/operation/Currencies_V2_Get) response. Limits will be returned in the requested currency. Default is USD. 
           required: false
           type: string
       responses:
@@ -4002,7 +4002,7 @@ definitions:
         type: number
       max:
         format: double
-        description: Maximum bet volume amount per contestant. See [How to calculate max risk from the max volume](https://github.com/pinny888/pinny888.github.io/blob/main/FAQs.md#how-to-calculate-max-risk-from-the-max-volume-limits-in-odds)    
+        description: Maximum bet volume amount per contestant. See [How to calculate max risk from the max volume](https://github.com/vipinnacle/vipinnacle.github.io/blob/main/FAQs.md#how-to-calculate-max-risk-from-the-max-volume-limits-in-odds)    
         type: number
   EventLinkResponse:
     type: object
